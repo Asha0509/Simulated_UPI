@@ -1,0 +1,33 @@
+# Stack build artifacts
+.stack-work/
+*.hi
+*.o
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hie/
+dist-newstyle/
+
+# Cabal
+cabal.project.local
+cabal.project.local~
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GHCi
+.ghci
+
+# Test coverage
+.hpc/
+.HTF/

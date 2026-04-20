@@ -1,0 +1,80 @@
+cabal-version: 2.4
+name:                upi-payment-sdk
+version:             0.1.0.0
+synopsis:            Simulated UPI payment SDK
+category:            Payments
+build-type:          Simple
+
+library
+  exposed-modules:
+      Types
+      Transaction
+      UPI
+      Reconciliation
+      SDK
+  hs-source-dirs:      src
+  build-depends:
+      base >=4.14 && <5
+    , text
+    , hashable
+    , containers
+  default-language:    Haskell2010
+
+test-suite upi-payment-sdk-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  other-modules:
+      TypesSpec
+      TransactionSpec
+      UPISpec
+      ReconciliationSpec
+      SDKSpec
+  build-depends:
+      base >=4.14 && <5
+    , hspec
+    , text
+    , hashable
+    , containers
+    , upi-payment-sdk
+  default-language:    Haskell2010
+cabal-version: 2.4
+name:                upi-payment-sdk
+version:             0.1.0.0
+synopsis:            Simulated UPI payment SDK
+category:            Payments
+build-type:          Simple
+
+library
+  exposed-modules:
+      Types
+      Transaction
+      UPI
+      Reconciliation
+      SDK
+  hs-source-dirs:      src
+  build-depends:
+      base >=4.14 && <5
+    , text
+    , hashable
+    , containers
+  default-language:    Haskell2010
+
+test-suite upi-payment-sdk-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  other-modules:
+      TypesSpec
+      TransactionSpec
+      UPISpec
+      ReconciliationSpec
+      SDKSpec
+  build-depends:
+      base >=4.14 && <5
+    , hspec
+    , text
+    , hashable
+    , containers
+    , upi-payment-sdk
+  default-language:    Haskell2010
